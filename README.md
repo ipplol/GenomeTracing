@@ -24,23 +24,21 @@ The test query sequence is EPI_ISL_7734032. And the result will be found at `./T
 
 ## Database prepare
 
-**(One can skip this step and use our pre-calculated database instead.)**
+**(One can skip this step and use our pre-calculated database instead. Simply download it from [Google Drive](https://drive.google.com/drive/folders/1feiqGvoKvP9NDxh__GTdzaMiNpTrpoMR?usp=sharing), unzip and put them into the `Data` fold.)**
 
-**(Simply download it from [Google Drive](https://drive.google.com/drive/folders/1feiqGvoKvP9NDxh__GTdzaMiNpTrpoMR?usp=sharing), unzip and put them into the `Data` fold.)**
+Two input files [metadata.tsv](https://ngdc.cncb.ac.cn/ncov/genome/export/meta) and [2019-nCoV_total.vcf](https://download.cncb.ac.cn/GVM/Coronavirus/vcf/2019-nCoV_total.vcf.gz) are needed to build the database.
 
-Two input files [metadata.tsv](https://ngdc.cncb.ac.cn/ncov/genome/export/meta) and [2019-nCoV_total.vcf](https://download.cncb.ac.cn/GVM/Coronavirus/vcf/2019-nCoV_total.vcf.gz) ,are needed to build the database.
-
-The Data_Download script can be used to download them using wget.
+The Data_Download script can be used to download the above two files using wget.
 
 - **`bash ./Script/Data_Download.sh`**
 
-If the download speed is slow, you can also download them through ftp manually and put them into the `Data` fold.
+If the download speed is slow, you can also download them through ftp manually and put them into the `Data` folder.
 
-Then, the Data_Prepare scripts perform data formatting and calculate the mutation metrics for the genome tracing
+Then, the Data_Prepare scripts perform data formatting and calculate the mutation metrics used for the genome tracing
 
 - **`bash ./Script/DataPrepare_Part1.sh`**
 
-The Part_1 script generate multiple `IQTREE_*.sh` scripts for phylogenetic reconstruction, and implement one by one.
+The Part_1 script generates multiple `IQTREE_*.sh` scripts for phylogenetic reconstruction, and implement one by one.
 
 After all trees are successfully constructed, run the part_2 script to obtain the mutation metrics
 
@@ -75,4 +73,4 @@ It includes files and scripts used in the Validation Section in the manuscript.
 
 `/Simulation` Simulatied viral genome with known ancestry information
 
-`/TransmissionPair` 563 sequences with highly plausible transmission links inferred from the genomic
+`/TransmissionPair` 563 sequences with highly plausible transmission links
