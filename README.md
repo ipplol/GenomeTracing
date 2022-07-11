@@ -52,11 +52,11 @@ After all of them are finished,
     
 ##  Find the closest hit to your query
 
-- **`bash ./Script/GenotypeDistanceCalculator.out <path to the Data fold> <mutations of your query> <path to the result file> <scoring method>`**
+- **`./Script/GenotypeDistanceCalculator.out <path to the Data fold> <mutations of your query> <path to the result file> <scoring method>`**
 
 for example:
 
-- **`GenotypeDistanceCalculator.out ./Data EPI_ISL_7734032:8393G/A,29301A/G,28881G/A,2832A/G,28311C/T,28271A/T,11537A/G,3037C/T ./Data/testQueryResult.txt -LDCL`**
+- **`./Script/GenotypeDistanceCalculator.out ./Data EPI_ISL_7734032:8393G/A,29301A/G,28881G/A,2832A/G,28311C/T,28271A/T,11537A/G,3037C/T ./Data/testQueryResult.txt -LDCL`**
 
 there are 5 scoring methods available, the default one is WM:
 
