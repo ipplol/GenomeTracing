@@ -1,5 +1,9 @@
 # A fast and accurate method for SARS-CoV-2 genomic tracing
 
+This website includes the codes and data supporting the online genome tracing tool at https://ngdc.cncb.ac.cn/ncov/online/tool/genome-tracing/.
+
+We recommend the user to do the analysis on the online platform, where the virus database is updated at least once every month. 
+
 ## Installation
 
 Download the zip file and unzip it. Enter the main folder and,
