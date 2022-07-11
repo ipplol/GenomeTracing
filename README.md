@@ -1,58 +1,52 @@
 # A fast and accurate method for SARS-CoV-2 genomic tracing
 
-Here store the source codes of the genome tracing platform 
-
-https://ngdc.cncb.ac.cn/ncov/online/tool/genome-tracing/
-
 ## Installation
 
-Download the zip file and unzip it. Enter the main fold and,
+Download the zip file and unzip it. Enter the main folder and,
 
 - **`bash ./Script/Compile.sh`**
 
-This will automatically compile several scripts that have been written in C++.
+This will automatically compile several scripts that written in C++.
 
-Then, to check if everything is settled, a simple example is pre-prepared using data from Nextstrain global open.
+Then, to check if everything is properly settled, a test file is pre-prepared using data from Nextstrain database.
 
 - **`bash ./TestData/DataPrepare_Test.sh`**
 
-It starts with two files, `sample_mutlist.tsv` and `metadata.tsv` ,in the `TestData` fold.
+It uses two files, `sample_mutlist.tsv` and `metadata.tsv` ,in the `TestData` fold as input.
 
-And it will calculate the mutation rate and other parameters for genomic tracing.
+And this script will calculate the mutation rate and other metrics for genomic tracing.
 
-The test query sequence is EPI_ISL_7734032. And the result will be at `./TestData/testQueryResult.txt`
+The test query sequence is EPI_ISL_7734032. And the result will be found at `./TestData/testQueryResult.txt`
 
 ## Database prepare
 
 **One can skip this step and use our pre-calculated database instead.**
 
-**Simply download it from GITHUB, unzip and put them into the `Data` fold.**
+**Simply download it from [Google Drive](https://drive.google.com/drive/folders/1feiqGvoKvP9NDxh__GTdzaMiNpTrpoMR?usp=sharing), unzip and put them into the `Data` fold.**
 
-The software that finds the closest hit to the query relies on a genotype list and several mutation characteristic files.
+Two input files [metadata.tsv](https://ngdc.cncb.ac.cn/ncov/genome/export/meta) and [2019-nCoV_total.vcf](https://download.cncb.ac.cn/GVM/Coronavirus/vcf/2019-nCoV_total.vcf.gz) ,are needed to build the database.
 
-To generate those files, two input [metadata.tsv](https://ngdc.cncb.ac.cn/ncov/genome/export/meta) and [2019-nCoV_total.vcf](https://download.cncb.ac.cn/GVM/Coronavirus/vcf/2019-nCoV_total.vcf.gz) ,are needed.
-
-The Data_Download script will try to download them using wget. 
+The Data_Download script can be used to download them using wget.
 
 - **`bash ./Script/Data_Download.sh`**
 
-If the download speed is too slow, please download them through ftp manually and put them into the `Data` fold.
+If the download speed is slow, you can also download them through ftp manually and put them into the `Data` fold.
 
-Then, the Data_Prepare scripts will perform data format change and mutation characteristic calculation.
+Then, the Data_Prepare scripts perform data formatting and calculate the mutation metrics for the genome tracing
 
 - **`bash ./Script/DataPrepare_Part1.sh`**
 
-The Part_1 script generate multiple `IQTREE_*.sh` scripts for phylogenetic reconstruction.
+The Part_1 script generate multiple `IQTREE_*.sh` scripts for phylogenetic reconstruction, and implement one by one.
 
-After all of them are finished,
+After all trees are successfully constructed, fun the part_2 script to obtain the mutation metrics
 
 - **`bash ./Script/DataPrepare_Part2.sh`**
 
-	to obtain mutation rates and other files.
+
     
 ##  Find the closest hit to your query
 
-- **`./Script/GenotypeDistanceCalculator.out <path to the Data fold> <mutations of your query> <path to the result file> <scoring method>`**
+- **`./Script/GenotypeDistanceCalculator.out <path to the Data folder> <mutations of your query> <path to the result file> <scoring method>`**
 
 for example:
 
@@ -64,8 +58,17 @@ there are 5 scoring methods available, the default one is WM:
 
 **`-MO`** -> Unweighted method
 
-**`-LD`** -> Weighted mutation with linkage disequilibrium
+**`-LD`** -> Weighted mutation with linkage disequilibrium considerred
 
-**`-CL`** -> Weighted mutation with lineage rate
+**`-CL`** -> Lineage-specific weighted mutation
 
-**`-LDCL`** -> Weighted mutation with both linkage disequilibrium and lineage rate
+**`-LDCL`** -> Weighted mutation with both linkage disequilibrium and lineage considerred
+
+### *ValidationResut.zip*
+It includes files and scripts used in the Validation Section in the manuscript.
+
+`/CollectionLocationTest` 2000 randomly selected sequences
+
+`/Simulation` Simulatied viral genome with known ancestry information
+
+`/TransmissionPair` 563 sequences with highly plausible transmission links inferred from the genomic
