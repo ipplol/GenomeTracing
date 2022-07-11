@@ -1,0 +1,1140 @@
+IQ-TREE multicore version 2.1.1 COVID-edition for Linux 64-bit built Aug 22 2020
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    JIUZ (AVX2, FMA3, 12 GB RAM)
+Command: /mnt/z/Valk/Script/iqtree2 -s Tree_LineageCombined_1.fa -m GTR+F -asr -nt AUTO -o Wuhan-Hu-1
+Seed:    900429 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Jul 11 18:36:24 2022
+Kernel:  AVX+FMA - auto-detect threads (6 CPU cores detected)
+
+Reading alignment file Tree_LineageCombined_1.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+WARNING: 97 sites contain only gaps or ambiguous characters.
+Alignment has 1038 sequences with 30096 columns, 2543 distinct patterns
+1038 parsimony-informative, 1947 singleton sites, 27111 constant sites
+            Gap/Ambiguity  Composition  p-value
+   1  Wuhan-Hu-1    0.32%    passed     99.34%
+   2  VAL_391       0.32%    passed     99.71%
+   3  VAL_184       0.32%    passed     99.25%
+   4  VAL_6         0.33%    passed     99.50%
+   5  VAL_1020      0.32%    passed     99.57%
+   6  VAL_4         0.32%    passed     99.78%
+   7  VAL_390       0.32%    passed     99.74%
+   8  VAL_992       0.35%    passed     99.97%
+   9  VAL_991       0.34%    passed     99.77%
+  10  VAL_110       0.32%    passed     99.57%
+  11  VAL_242       0.32%    passed    100.00%
+  12  VAL_793       0.33%    passed     99.96%
+  13  VAL_320       0.32%    passed     99.99%
+  14  VAL_959       0.32%    passed     99.98%
+  15  VAL_948       0.32%    passed     99.98%
+  16  VAL_946       0.32%    passed     99.99%
+  17  VAL_934       0.32%    passed     99.98%
+  18  VAL_554       0.32%    passed     99.98%
+  19  VAL_550       0.32%    passed     99.98%
+  20  VAL_947       0.32%    passed    100.00%
+  21  VAL_186       0.32%    passed     99.93%
+  22  VAL_989       0.32%    passed     99.98%
+  23  VAL_405       0.32%    passed     99.99%
+  24  VAL_156       0.32%    passed     99.98%
+  25  VAL_28        0.32%    passed     99.99%
+  26  VAL_271       0.32%    passed     99.92%
+  27  VAL_16        0.32%    passed     99.97%
+  28  VAL_384       0.32%    passed     99.99%
+  29  VAL_513       0.32%    passed     99.99%
+  30  VAL_506       0.32%    passed     99.99%
+  31  VAL_983       0.32%    passed    100.00%
+  32  VAL_551       0.32%    passed    100.00%
+  33  VAL_560       0.32%    passed     99.99%
+  34  VAL_273       0.32%    passed     99.98%
+  35  VAL_227       0.32%    passed     99.99%
+  36  VAL_791       0.33%    passed     99.99%
+  37  VAL_1027      0.33%    passed     99.99%
+  38  VAL_482       0.32%    passed     99.98%
+  39  VAL_84        0.32%    passed     99.96%
+  40  VAL_484       0.32%    passed    100.00%
+  41  VAL_483       0.32%    passed     99.95%
+  42  VAL_440       0.32%    passed     99.98%
+  43  VAL_435       0.32%    passed     99.99%
+  44  VAL_433       0.32%    passed     99.99%
+  45  VAL_431       0.32%    passed     99.98%
+  46  VAL_512       0.32%    passed     99.99%
+  47  VAL_941       0.32%    passed     99.97%
+  48  VAL_15        0.32%    passed     99.96%
+  49  VAL_1036      0.32%    passed     99.36%
+  50  VAL_942       0.32%    passed     99.28%
+  51  VAL_244       0.32%    passed     99.38%
+  52  VAL_104       0.32%    passed     99.42%
+  53  VAL_211       0.32%    passed     99.65%
+  54  VAL_935       0.32%    passed     99.62%
+  55  VAL_377       0.32%    passed     99.48%
+  56  VAL_187       0.32%    passed     99.42%
+  57  VAL_516       0.32%    passed     99.48%
+  58  VAL_1025      0.32%    passed     99.98%
+  59  VAL_1021      0.32%    passed     99.80%
+  60  VAL_1016      0.32%    passed     99.77%
+  61  VAL_514       0.32%    passed     99.69%
+  62  VAL_499       0.32%    passed     99.67%
+  63  VAL_491       0.32%    passed     99.72%
+  64  VAL_485       0.32%    passed     99.83%
+  65  VAL_155       0.32%    passed     99.93%
+  66  VAL_379       0.32%    passed     99.85%
+  67  VAL_161       0.32%    passed     99.92%
+  68  VAL_553       0.32%    passed     99.80%
+  69  VAL_378       0.32%    passed     99.80%
+  70  VAL_193       0.32%    passed     99.73%
+  71  VAL_194       0.32%    passed     99.54%
+  72  VAL_21        0.35%    passed     99.79%
+  73  VAL_552       0.32%    passed     99.65%
+  74  VAL_191       0.32%    passed     99.62%
+  75  VAL_190       0.32%    passed     99.63%
+  76  VAL_177       0.32%    passed     99.89%
+  77  VAL_987       0.32%    passed     99.61%
+  78  VAL_105       0.32%    passed     99.60%
+  79  VAL_192       0.32%    passed     99.92%
+  80  VAL_172       0.32%    passed     99.92%
+  81  VAL_537       0.35%    passed     99.79%
+  82  VAL_7         0.32%    passed     99.72%
+  83  VAL_386       0.32%    passed     99.68%
+  84  VAL_113       0.32%    passed     99.80%
+  85  VAL_919       0.32%    passed     99.83%
+  86  VAL_2         0.32%    passed     99.71%
+  87  VAL_215       0.32%    passed     99.83%
+  88  VAL_173       0.32%    passed     99.85%
+  89  VAL_380       0.32%    passed     99.72%
+  90  VAL_986       0.32%    passed     99.34%
+  91  VAL_268       0.32%    passed     99.86%
+  92  VAL_381       0.32%    passed     99.77%
+  93  VAL_385       0.32%    passed     99.78%
+  94  VAL_236       0.32%    passed     99.69%
+  95  VAL_387       0.32%    passed     99.89%
+  96  VAL_392       0.32%    passed     99.86%
+  97  VAL_930       0.32%    passed     99.93%
+  98  VAL_945       0.32%    passed     99.72%
+  99  VAL_170       0.32%    passed     99.88%
+ 100  VAL_230       0.32%    passed     99.84%
+ 101  VAL_412       0.32%    passed     99.81%
+ 102  VAL_112       0.32%    passed     99.64%
+ 103  VAL_111       0.32%    passed     99.57%
+ 104  VAL_538       0.32%    passed     99.80%
+ 105  VAL_1019      0.32%    passed     99.69%
+ 106  VAL_383       0.32%    passed     99.83%
+ 107  VAL_189       0.32%    passed     99.68%
+ 108  VAL_924       0.32%    passed     99.78%
+ 109  VAL_188       0.32%    passed     99.84%
+ 110  VAL_500       0.32%    passed     99.77%
+ 111  VAL_171       0.32%    passed     99.72%
+ 112  VAL_916       0.32%    passed     99.83%
+ 113  VAL_174       0.32%    passed     99.93%
+ 114  VAL_411       0.32%    passed     99.74%
+ 115  VAL_246       0.32%    passed     99.89%
+ 116  VAL_245       0.32%    passed     99.87%
+ 117  VAL_389       0.33%    passed     99.62%
+ 118  VAL_413       0.32%    passed     99.62%
+ 119  VAL_241       0.32%    passed     99.80%
+ 120  VAL_238       0.32%    passed     99.71%
+ 121  VAL_23        0.32%    passed     99.61%
+ 122  VAL_22        0.32%    passed     99.74%
+ 123  VAL_921       0.32%    passed     99.79%
+ 124  VAL_102       0.32%    passed     99.85%
+ 125  VAL_247       0.32%    passed     99.79%
+ 126  VAL_115       0.32%    passed     99.86%
+ 127  VAL_212       0.33%    passed     99.80%
+ 128  VAL_33        0.33%    passed     99.81%
+ 129  VAL_185       0.32%    passed     99.98%
+ 130  VAL_183       0.32%    passed     99.99%
+ 131  VAL_182       0.32%    passed     99.98%
+ 132  VAL_181       0.32%    passed     99.96%
+ 133  VAL_180       0.32%    passed     99.97%
+ 134  VAL_994       0.33%    passed     99.91%
+ 135  VAL_993       0.32%    passed     99.81%
+ 136  VAL_925       0.33%    passed     99.47%
+ 137  VAL_923       0.32%    passed     99.87%
+ 138  VAL_103       0.32%    passed     99.77%
+ 139  VAL_503       0.32%    passed     99.79%
+ 140  VAL_928       0.32%    passed     99.65%
+ 141  VAL_382       0.32%    passed     99.76%
+ 142  VAL_488       0.32%    passed     99.69%
+ 143  VAL_234       0.34%    passed     99.87%
+ 144  VAL_1031      0.32%    passed     99.99%
+ 145  VAL_1030      0.33%    passed     99.97%
+ 146  VAL_504       0.32%    passed     99.90%
+ 147  VAL_270       0.32%    passed     99.89%
+ 148  VAL_940       0.32%    passed     99.99%
+ 149  VAL_939       0.32%    passed    100.00%
+ 150  VAL_927       0.32%    passed    100.00%
+ 151  VAL_232       0.33%    passed     99.94%
+ 152  VAL_229       0.32%    passed     99.98%
+ 153  VAL_409       0.32%    passed    100.00%
+ 154  VAL_233       0.32%    passed     99.92%
+ 155  VAL_80        0.32%    passed     99.93%
+ 156  VAL_515       0.32%    passed     99.98%
+ 157  VAL_510       0.32%    passed     99.95%
+ 158  VAL_82        0.32%    passed     99.98%
+ 159  VAL_83        0.32%    passed     99.96%
+ 160  VAL_175       0.32%    passed     99.98%
+ 161  VAL_535       0.32%    passed     99.94%
+ 162  VAL_543       0.32%    passed     99.98%
+ 163  VAL_507       0.32%    passed     99.98%
+ 164  VAL_536       0.32%    passed     99.94%
+ 165  VAL_545       0.32%    passed     99.99%
+ 166  VAL_397       0.32%    passed     99.98%
+ 167  VAL_14        0.32%    passed    100.00%
+ 168  VAL_548       0.32%    passed    100.00%
+ 169  VAL_508       0.32%    passed     99.98%
+ 170  VAL_163       0.32%    passed    100.00%
+ 171  VAL_216       0.32%    passed     99.97%
+ 172  VAL_549       0.32%    passed     99.95%
+ 173  VAL_544       0.32%    passed     99.87%
+ 174  VAL_494       0.32%    passed     99.92%
+ 175  VAL_176       0.32%    passed     99.88%
+ 176  VAL_239       0.32%    passed     99.92%
+ 177  VAL_240       0.32%    passed     99.68%
+ 178  VAL_539       0.32%    passed     99.88%
+ 179  VAL_178       0.32%    passed     99.99%
+ 180  VAL_541       0.32%    passed     99.97%
+ 181  VAL_695       0.32%    passed     99.98%
+ 182  VAL_1018      0.32%    passed     99.97%
+ 183  VAL_1002      0.32%    passed     99.93%
+ 184  VAL_505       0.32%    passed     99.93%
+ 185  VAL_497       0.32%    passed     99.95%
+ 186  VAL_153       0.32%    passed     99.97%
+ 187  VAL_918       0.32%    passed     99.91%
+ 188  VAL_922       0.32%    passed     99.71%
+ 189  VAL_1015      0.32%    passed     99.78%
+ 190  VAL_235       0.32%    passed     99.84%
+ 191  VAL_547       0.33%    passed     99.90%
+ 192  VAL_0         0.32%    passed     99.78%
+ 193  VAL_493       0.32%    passed     99.74%
+ 194  VAL_114       0.32%    passed     99.98%
+ 195  VAL_272       0.32%    passed     99.97%
+ 196  VAL_944       0.32%    passed     99.97%
+ 197  VAL_162       0.32%    passed     99.96%
+ 198  VAL_943       0.32%    passed     99.97%
+ 199  VAL_158       0.32%    passed     99.97%
+ 200  VAL_132       0.32%    passed     99.97%
+ 201  VAL_116       0.32%    passed     99.99%
+ 202  VAL_421       0.32%    passed     99.97%
+ 203  VAL_422       0.32%    passed     99.95%
+ 204  VAL_228       0.32%    passed     99.93%
+ 205  VAL_988       0.32%    passed     99.92%
+ 206  VAL_495       0.32%    passed     99.99%
+ 207  VAL_489       0.32%    passed     99.97%
+ 208  VAL_542       0.33%    passed     99.92%
+ 209  VAL_490       0.32%    passed     99.91%
+ 210  VAL_231       0.32%    passed     99.96%
+ 211  VAL_214       0.32%    passed     99.88%
+ 212  VAL_213       0.32%    passed     99.92%
+ 213  VAL_1017      0.32%    passed     99.81%
+ 214  VAL_492       0.32%    passed     99.86%
+ 215  VAL_394       0.32%    passed     99.95%
+ 216  VAL_393       0.32%    passed     99.88%
+ 217  VAL_496       0.32%    passed     99.82%
+ 218  VAL_81        0.32%    passed     99.97%
+ 219  VAL_487       0.32%    passed     99.99%
+ 220  VAL_1004      0.32%    passed     99.90%
+ 221  VAL_269       0.32%    passed     99.89%
+ 222  VAL_502       0.32%    passed     99.93%
+ 223  VAL_168       0.32%    passed    100.00%
+ 224  VAL_395       0.32%    passed     99.91%
+ 225  VAL_511       0.32%    passed     99.99%
+ 226  VAL_509       0.32%    passed     99.98%
+ 227  VAL_938       0.32%    passed     99.99%
+ 228  VAL_26        0.32%    passed     99.98%
+ 229  VAL_937       0.32%    passed     99.93%
+ 230  VAL_34        0.32%    passed     99.99%
+ 231  VAL_396       0.32%    passed     99.99%
+ 232  VAL_106       0.32%    passed     99.97%
+ 233  VAL_546       0.32%    passed     99.98%
+ 234  VAL_410       0.32%    passed     99.97%
+ 235  VAL_226       0.32%    passed     99.99%
+ 236  VAL_432       0.32%    passed    100.00%
+ 237  VAL_107       0.32%    passed     99.98%
+ 238  VAL_556       0.32%    passed     99.95%
+ 239  VAL_424       0.32%    passed     99.99%
+ 240  VAL_559       0.32%    passed     99.98%
+ 241  VAL_936       0.32%    passed     99.95%
+ 242  VAL_990       0.32%    passed     99.93%
+ 243  VAL_3         0.32%    passed     99.51%
+ 244  VAL_985       0.32%    passed     99.68%
+ 245  VAL_498       0.32%    passed     99.28%
+ 246  VAL_984       0.32%    passed     99.84%
+ 247  VAL_920       0.32%    passed     99.81%
+ 248  VAL_10        0.32%    passed     99.72%
+ 249  VAL_1034      0.33%    passed    100.00%
+ 250  VAL_850       0.32%    passed    100.00%
+ 251  VAL_856       0.32%    passed     99.99%
+ 252  VAL_849       0.32%    passed    100.00%
+ 253  VAL_1013      0.32%    passed    100.00%
+ 254  VAL_844       0.32%    passed    100.00%
+ 255  VAL_843       0.32%    passed    100.00%
+ 256  VAL_842       0.32%    passed     99.97%
+ 257  VAL_640       0.32%    passed     99.98%
+ 258  VAL_836       0.32%    passed     99.98%
+ 259  VAL_835       0.32%    passed    100.00%
+ 260  VAL_834       0.32%    passed    100.00%
+ 261  VAL_832       0.32%    passed    100.00%
+ 262  VAL_830       0.32%    passed    100.00%
+ 263  VAL_1005      0.32%    passed     99.97%
+ 264  VAL_828       0.32%    passed     99.99%
+ 265  VAL_826       0.32%    passed    100.00%
+ 266  VAL_845       0.32%    passed    100.00%
+ 267  VAL_825       0.32%    passed    100.00%
+ 268  VAL_831       0.32%    passed    100.00%
+ 269  VAL_821       0.32%    passed    100.00%
+ 270  VAL_818       0.32%    passed    100.00%
+ 271  VAL_822       0.32%    passed    100.00%
+ 272  VAL_817       0.32%    passed    100.00%
+ 273  VAL_816       0.32%    passed    100.00%
+ 274  VAL_823       0.32%    passed    100.00%
+ 275  VAL_417       0.32%    passed    100.00%
+ 276  VAL_875       0.32%    passed    100.00%
+ 277  VAL_558       0.32%    passed    100.00%
+ 278  VAL_416       0.32%    passed     99.98%
+ 279  VAL_846       0.32%    passed    100.00%
+ 280  VAL_904       0.32%    passed     99.99%
+ 281  VAL_900       0.32%    passed    100.00%
+ 282  VAL_896       0.32%    passed    100.00%
+ 283  VAL_388       0.32%    passed    100.00%
+ 284  VAL_428       0.32%    passed     99.99%
+ 285  VAL_887       0.32%    passed    100.00%
+ 286  VAL_913       0.32%    passed    100.00%
+ 287  VAL_862       0.32%    passed    100.00%
+ 288  VAL_29        0.32%    passed    100.00%
+ 289  VAL_861       0.32%    passed    100.00%
+ 290  VAL_732       0.33%    passed    100.00%
+ 291  VAL_897       0.32%    passed    100.00%
+ 292  VAL_857       0.32%    passed    100.00%
+ 293  VAL_418       0.32%    passed     99.99%
+ 294  VAL_895       0.32%    passed    100.00%
+ 295  VAL_864       0.32%    passed     99.99%
+ 296  VAL_860       0.32%    passed    100.00%
+ 297  VAL_873       0.32%    passed     99.99%
+ 298  VAL_901       0.32%    passed    100.00%
+ 299  VAL_833       0.32%    passed    100.00%
+ 300  VAL_872       0.32%    passed    100.00%
+ 301  VAL_899       0.32%    passed    100.00%
+ 302  VAL_292       0.32%    passed     99.99%
+ 303  VAL_612       0.32%    passed    100.00%
+ 304  VAL_868       0.32%    passed    100.00%
+ 305  VAL_123       0.32%    passed    100.00%
+ 306  VAL_870       0.32%    passed    100.00%
+ 307  VAL_24        0.32%    passed     99.99%
+ 308  VAL_809       0.32%    passed     99.99%
+ 309  VAL_869       0.32%    passed     99.99%
+ 310  VAL_419       0.32%    passed     99.99%
+ 311  VAL_906       0.32%    passed     99.99%
+ 312  VAL_470       0.32%    passed    100.00%
+ 313  VAL_867       0.32%    passed    100.00%
+ 314  VAL_908       0.32%    passed     99.99%
+ 315  VAL_576       0.32%    passed     99.98%
+ 316  VAL_848       0.32%    passed    100.00%
+ 317  VAL_237       0.32%    passed    100.00%
+ 318  VAL_305       0.32%    passed    100.00%
+ 319  VAL_20        0.32%    passed     99.99%
+ 320  VAL_426       0.32%    passed     99.99%
+ 321  VAL_415       0.32%    passed     99.98%
+ 322  VAL_910       0.32%    passed    100.00%
+ 323  VAL_911       0.32%    passed    100.00%
+ 324  VAL_907       0.32%    passed    100.00%
+ 325  VAL_912       0.32%    passed    100.00%
+ 326  VAL_564       0.32%    passed     99.99%
+ 327  VAL_135       0.32%    passed    100.00%
+ 328  VAL_881       0.32%    passed    100.00%
+ 329  VAL_574       0.32%    passed    100.00%
+ 330  VAL_955       0.32%    passed     99.99%
+ 331  VAL_824       0.32%    passed     99.98%
+ 332  VAL_807       0.32%    passed    100.00%
+ 333  VAL_167       0.32%    passed     99.98%
+ 334  VAL_1033      0.34%    passed     99.99%
+ 335  VAL_837       0.32%    passed    100.00%
+ 336  VAL_136       0.32%    passed     99.99%
+ 337  VAL_838       0.32%    passed     99.99%
+ 338  VAL_794       0.32%    passed    100.00%
+ 339  VAL_855       0.32%    passed    100.00%
+ 340  VAL_166       0.32%    passed     99.99%
+ 341  VAL_819       0.32%    passed    100.00%
+ 342  VAL_429       0.32%    passed     99.99%
+ 343  VAL_877       0.32%    passed    100.00%
+ 344  VAL_797       0.32%    passed    100.00%
+ 345  VAL_810       0.32%    passed    100.00%
+ 346  VAL_800       0.34%    passed    100.00%
+ 347  VAL_808       0.32%    passed    100.00%
+ 348  VAL_677       0.32%    passed    100.00%
+ 349  VAL_669       0.32%    passed    100.00%
+ 350  VAL_1035      0.34%    passed     99.99%
+ 351  VAL_1032      0.34%    passed     99.99%
+ 352  VAL_659       0.32%    passed     99.99%
+ 353  VAL_1029      0.33%    passed    100.00%
+ 354  VAL_1028      0.34%    passed    100.00%
+ 355  VAL_658       0.32%    passed     99.99%
+ 356  VAL_670       0.32%    passed    100.00%
+ 357  VAL_652       0.32%    passed     99.99%
+ 358  VAL_321       0.32%    passed     99.99%
+ 359  VAL_854       0.32%    passed    100.00%
+ 360  VAL_852       0.32%    passed     99.99%
+ 361  VAL_847       0.32%    passed     99.99%
+ 362  VAL_1012      0.32%    passed     99.99%
+ 363  VAL_1011      0.32%    passed    100.00%
+ 364  VAL_851       0.32%    passed     99.99%
+ 365  VAL_841       0.32%    passed     99.98%
+ 366  VAL_839       0.32%    passed     99.99%
+ 367  VAL_639       0.32%    passed     99.99%
+ 368  VAL_998       0.32%    passed    100.00%
+ 369  VAL_302       0.32%    passed     99.99%
+ 370  VAL_301       0.32%    passed     99.99%
+ 371  VAL_630       0.32%    passed     99.99%
+ 372  VAL_827       0.32%    passed     99.99%
+ 373  VAL_982       0.32%    passed    100.00%
+ 374  VAL_820       0.32%    passed    100.00%
+ 375  VAL_293       0.32%    passed     99.99%
+ 376  VAL_978       0.32%    passed    100.00%
+ 377  VAL_977       0.32%    passed    100.00%
+ 378  VAL_976       0.32%    passed     99.99%
+ 379  VAL_291       0.32%    passed     99.99%
+ 380  VAL_975       0.32%    passed    100.00%
+ 381  VAL_972       0.32%    passed    100.00%
+ 382  VAL_288       0.32%    passed     99.99%
+ 383  VAL_971       0.32%    passed    100.00%
+ 384  VAL_815       0.32%    passed     99.99%
+ 385  VAL_287       0.32%    passed     99.99%
+ 386  VAL_294       0.32%    passed     99.99%
+ 387  VAL_970       0.32%    passed    100.00%
+ 388  VAL_979       0.32%    passed    100.00%
+ 389  VAL_285       0.32%    passed     99.98%
+ 390  VAL_829       0.32%    passed     99.98%
+ 391  VAL_284       0.32%    passed     99.98%
+ 392  VAL_1007      0.32%    passed    100.00%
+ 393  VAL_283       0.32%    passed     99.98%
+ 394  VAL_968       0.32%    passed     99.99%
+ 395  VAL_248       0.32%    passed     99.99%
+ 396  VAL_444       0.32%    passed     99.99%
+ 397  VAL_566       0.32%    passed     99.99%
+ 398  VAL_19        0.32%    passed    100.00%
+ 399  VAL_437       0.32%    passed    100.00%
+ 400  VAL_434       0.32%    passed     99.99%
+ 401  VAL_243       0.34%    passed     99.99%
+ 402  VAL_579       0.32%    passed     99.98%
+ 403  VAL_148       0.32%    passed    100.00%
+ 404  VAL_563       0.32%    passed    100.00%
+ 405  VAL_789       0.32%    passed    100.00%
+ 406  VAL_118       0.32%    passed    100.00%
+ 407  VAL_980       0.32%    passed     99.99%
+ 408  VAL_404       0.32%    passed    100.00%
+ 409  VAL_888       0.32%    passed     99.99%
+ 410  VAL_588       0.32%    passed    100.00%
+ 411  VAL_398       0.32%    passed    100.00%
+ 412  VAL_902       0.32%    passed     99.99%
+ 413  VAL_408       0.32%    passed     99.99%
+ 414  VAL_798       0.33%    passed    100.00%
+ 415  VAL_557       0.32%    passed     99.96%
+ 416  VAL_401       0.32%    passed     99.99%
+ 417  VAL_124       0.32%    passed    100.00%
+ 418  VAL_400       0.32%    passed    100.00%
+ 419  VAL_27        0.32%    passed    100.00%
+ 420  VAL_518       0.32%    passed     99.99%
+ 421  VAL_646       0.33%    passed    100.00%
+ 422  VAL_880       0.32%    passed    100.00%
+ 423  VAL_885       0.32%    passed     99.98%
+ 424  VAL_406       0.32%    passed    100.00%
+ 425  VAL_32        0.32%    passed     99.99%
+ 426  VAL_120       0.32%    passed    100.00%
+ 427  VAL_886       0.32%    passed     99.99%
+ 428  VAL_407       0.32%    passed    100.00%
+ 429  VAL_286       0.32%    passed     99.97%
+ 430  VAL_894       0.32%    passed     99.98%
+ 431  VAL_607       0.32%    passed     99.99%
+ 432  VAL_403       0.32%    passed    100.00%
+ 433  VAL_650       0.32%    passed     99.99%
+ 434  VAL_618       0.32%    passed    100.00%
+ 435  VAL_705       0.32%    passed     99.99%
+ 436  VAL_874       0.32%    passed     99.99%
+ 437  VAL_143       0.32%    passed     99.99%
+ 438  VAL_958       0.32%    passed     99.99%
+ 439  VAL_92        0.32%    passed    100.00%
+ 440  VAL_674       0.32%    passed     99.99%
+ 441  VAL_878       0.32%    passed     99.98%
+ 442  VAL_891       0.32%    passed     99.98%
+ 443  VAL_140       0.32%    passed     99.99%
+ 444  VAL_38        0.32%    passed    100.00%
+ 445  VAL_787       0.32%    passed    100.00%
+ 446  VAL_909       0.32%    passed    100.00%
+ 447  VAL_884       0.32%    passed     99.99%
+ 448  VAL_402       0.32%    passed    100.00%
+ 449  VAL_883       0.32%    passed    100.00%
+ 450  VAL_25        0.32%    passed    100.00%
+ 451  VAL_250       0.32%    passed     99.97%
+ 452  VAL_340       0.32%    passed     99.99%
+ 453  VAL_130       0.32%    passed     99.99%
+ 454  VAL_882       0.32%    passed    100.00%
+ 455  VAL_131       0.32%    passed    100.00%
+ 456  VAL_165       0.32%    passed    100.00%
+ 457  VAL_443       0.32%    passed     99.97%
+ 458  VAL_278       0.32%    passed     99.99%
+ 459  VAL_893       0.32%    passed     99.99%
+ 460  VAL_858       0.32%    passed     99.99%
+ 461  VAL_965       0.32%    passed    100.00%
+ 462  VAL_957       0.32%    passed     99.99%
+ 463  VAL_871       0.32%    passed    100.00%
+ 464  VAL_890       0.32%    passed     99.99%
+ 465  VAL_138       0.32%    passed     99.98%
+ 466  VAL_863       0.32%    passed     99.99%
+ 467  VAL_853       0.32%    passed    100.00%
+ 468  VAL_811       0.32%    passed     99.99%
+ 469  VAL_478       0.32%    passed     99.99%
+ 470  VAL_876       0.32%    passed     99.99%
+ 471  VAL_147       0.32%    passed    100.00%
+ 472  VAL_562       0.32%    passed     99.99%
+ 473  VAL_905       0.32%    passed    100.00%
+ 474  VAL_668       0.32%    passed    100.00%
+ 475  VAL_889       0.32%    passed     99.97%
+ 476  VAL_399       0.32%    passed    100.00%
+ 477  VAL_439       0.32%    passed     99.99%
+ 478  VAL_682       0.32%    passed    100.00%
+ 479  VAL_963       0.32%    passed    100.00%
+ 480  VAL_128       0.32%    passed    100.00%
+ 481  VAL_141       0.32%    passed    100.00%
+ 482  VAL_133       0.32%    passed     99.99%
+ 483  VAL_575       0.32%    passed     99.98%
+ 484  VAL_142       0.32%    passed     99.99%
+ 485  VAL_931       0.32%    passed     99.99%
+ 486  VAL_585       0.32%    passed     99.99%
+ 487  VAL_580       0.32%    passed    100.00%
+ 488  VAL_144       0.32%    passed     99.99%
+ 489  VAL_997       0.32%    passed     99.99%
+ 490  VAL_145       0.32%    passed     99.98%
+ 491  VAL_593       0.32%    passed    100.00%
+ 492  VAL_267       0.32%    passed     99.97%
+ 493  VAL_796       0.32%    passed    100.00%
+ 494  VAL_967       0.32%    passed    100.00%
+ 495  VAL_565       0.32%    passed    100.00%
+ 496  VAL_134       0.32%    passed    100.00%
+ 497  VAL_790       0.32%    passed    100.00%
+ 498  VAL_949       0.32%    passed    100.00%
+ 499  VAL_121       0.32%    passed    100.00%
+ 500  VAL_436       0.32%    passed     99.99%
+ 501  VAL_951       0.32%    passed    100.00%
+ 502  VAL_792       0.32%    passed    100.00%
+ 503  VAL_290       0.32%    passed     99.99%
+ 504  VAL_573       0.32%    passed    100.00%
+ 505  VAL_597       0.32%    passed     99.99%
+ 506  VAL_274       0.32%    passed     99.97%
+ 507  VAL_30        0.32%    passed    100.00%
+ 508  VAL_952       0.32%    passed    100.00%
+ 509  VAL_969       0.32%    passed    100.00%
+ 510  VAL_903       0.32%    passed     99.99%
+ 511  VAL_139       0.32%    passed    100.00%
+ 512  VAL_953       0.32%    passed    100.00%
+ 513  VAL_954       0.32%    passed    100.00%
+ 514  VAL_567       0.32%    passed     99.99%
+ 515  VAL_275       0.32%    passed     99.98%
+ 516  VAL_879       0.32%    passed     99.92%
+ 517  VAL_966       0.32%    passed    100.00%
+ 518  VAL_276       0.32%    passed     99.98%
+ 519  VAL_129       0.32%    passed    100.00%
+ 520  VAL_277       0.32%    passed     99.98%
+ 521  VAL_122       0.32%    passed     99.99%
+ 522  VAL_599       0.32%    passed     99.98%
+ 523  VAL_950       0.32%    passed     99.99%
+ 524  VAL_962       0.32%    passed    100.00%
+ 525  VAL_802       0.34%    passed    100.00%
+ 526  VAL_801       0.33%    passed    100.00%
+ 527  VAL_164       0.32%    passed     99.98%
+ 528  VAL_438       0.32%    passed     99.99%
+ 529  VAL_956       0.32%    passed     99.99%
+ 530  VAL_961       0.32%    passed     99.99%
+ 531  VAL_898       0.32%    passed     99.98%
+ 532  VAL_799       0.32%    passed    100.00%
+ 533  VAL_960       0.32%    passed    100.00%
+ 534  VAL_469       0.32%    passed    100.00%
+ 535  VAL_964       0.32%    passed     99.99%
+ 536  VAL_282       0.32%    passed     99.97%
+ 537  VAL_657       0.32%    passed     99.98%
+ 538  VAL_840       0.32%    passed     99.99%
+ 539  VAL_757       0.32%    passed     99.99%
+ 540  VAL_249       0.32%    passed     99.99%
+ 541  VAL_297       0.32%    passed     99.97%
+ 542  VAL_812       0.32%    passed    100.00%
+ 543  VAL_299       0.32%    passed     99.94%
+ 544  VAL_569       0.32%    passed     99.99%
+ 545  VAL_296       0.32%    passed     99.98%
+ 546  VAL_795       0.32%    passed    100.00%
+ 547  VAL_289       0.32%    passed     99.97%
+ 548  VAL_295       0.32%    passed     99.99%
+ 549  VAL_581       0.32%    passed     99.99%
+ 550  VAL_298       0.32%    passed     99.95%
+ 551  VAL_311       0.32%    passed     99.96%
+ 552  VAL_734       0.33%    passed    100.00%
+ 553  VAL_603       0.33%    passed     99.99%
+ 554  VAL_1008      0.32%    passed     99.99%
+ 555  VAL_788       0.32%    passed    100.00%
+ 556  VAL_555       0.32%    passed    100.00%
+ 557  VAL_723       0.32%    passed    100.00%
+ 558  VAL_645       0.32%    passed    100.00%
+ 559  VAL_414       0.32%    passed     99.98%
+ 560  VAL_892       0.32%    passed     99.99%
+ 561  VAL_152       0.32%    passed     99.98%
+ 562  VAL_933       0.32%    passed    100.00%
+ 563  VAL_932       0.32%    passed    100.00%
+ 564  VAL_125       0.32%    passed     99.98%
+ 565  VAL_974       0.32%    passed     99.97%
+ 566  VAL_119       0.32%    passed     99.98%
+ 567  VAL_117       0.32%    passed     99.99%
+ 568  VAL_18        0.32%    passed     99.98%
+ 569  VAL_568       0.32%    passed    100.00%
+ 570  VAL_647       0.32%    passed     99.99%
+ 571  VAL_591       0.32%    passed     99.99%
+ 572  VAL_724       0.32%    passed     99.97%
+ 573  VAL_517       0.32%    passed     99.99%
+ 574  VAL_973       0.32%    passed     99.97%
+ 575  VAL_608       0.33%    passed    100.00%
+ 576  VAL_611       0.32%    passed    100.00%
+ 577  VAL_85        0.32%    passed     99.99%
+ 578  VAL_726       0.32%    passed    100.00%
+ 579  VAL_561       0.32%    passed     99.99%
+ 580  VAL_36        0.32%    passed    100.00%
+ 581  VAL_339       0.32%    passed     99.99%
+ 582  VAL_672       0.32%    passed    100.00%
+ 583  VAL_146       0.32%    passed     99.99%
+ 584  VAL_572       0.32%    passed     99.99%
+ 585  VAL_866       0.32%    passed     99.99%
+ 586  VAL_865       0.32%    passed     99.98%
+ 587  VAL_859       0.32%    passed    100.00%
+ 588  VAL_589       0.32%    passed    100.00%
+ 589  VAL_571       0.32%    passed    100.00%
+ 590  VAL_31        0.32%    passed    100.00%
+ 591  VAL_127       0.32%    passed    100.00%
+ 592  VAL_126       0.32%    passed    100.00%
+ 593  VAL_17        0.32%    passed    100.00%
+ 594  VAL_570       0.32%    passed    100.00%
+ 595  VAL_981       0.32%    passed    100.00%
+ 596  VAL_427       0.32%    passed    100.00%
+ 597  VAL_683       0.32%    passed     99.99%
+ 598  VAL_681       0.34%    passed     99.95%
+ 599  VAL_678       0.33%    passed     99.97%
+ 600  VAL_667       0.32%    passed     99.98%
+ 601  VAL_661       0.32%    passed     99.95%
+ 602  VAL_327       0.32%    passed     99.94%
+ 603  VAL_326       0.32%    passed     99.99%
+ 604  VAL_656       0.33%    passed     99.95%
+ 605  VAL_324       0.32%    passed     99.97%
+ 606  VAL_651       0.32%    passed     99.95%
+ 607  VAL_673       0.33%    passed     99.98%
+ 608  VAL_318       0.32%    passed     99.95%
+ 609  VAL_313       0.32%    passed     99.95%
+ 610  VAL_312       0.32%    passed     99.91%
+ 611  VAL_641       0.32%    passed     99.84%
+ 612  VAL_638       0.32%    passed     99.99%
+ 613  VAL_637       0.33%    passed     99.97%
+ 614  VAL_310       0.32%    passed     99.98%
+ 615  VAL_309       0.32%    passed    100.00%
+ 616  VAL_304       0.32%    passed    100.00%
+ 617  VAL_303       0.32%    passed    100.00%
+ 618  VAL_671       0.32%    passed     99.99%
+ 619  VAL_634       0.32%    passed     99.93%
+ 620  VAL_633       0.32%    passed     99.95%
+ 621  VAL_632       0.32%    passed     99.97%
+ 622  VAL_628       0.32%    passed     99.91%
+ 623  VAL_625       0.32%    passed     99.96%
+ 624  VAL_624       0.32%    passed     99.95%
+ 625  VAL_662       0.32%    passed     99.99%
+ 626  VAL_620       0.32%    passed     99.90%
+ 627  VAL_617       0.32%    passed     99.98%
+ 628  VAL_615       0.32%    passed     99.88%
+ 629  VAL_480       0.32%    passed     99.98%
+ 630  VAL_479       0.32%    passed     99.92%
+ 631  VAL_635       0.32%    passed     99.95%
+ 632  VAL_806       0.34%    passed    100.00%
+ 633  VAL_609       0.32%    passed     99.96%
+ 634  VAL_281       0.32%    passed     99.94%
+ 635  VAL_473       0.32%    passed     99.97%
+ 636  VAL_805       0.35%    passed    100.00%
+ 637  VAL_605       0.32%    passed     99.96%
+ 638  VAL_472       0.32%    passed     99.99%
+ 639  VAL_804       0.34%    passed     99.99%
+ 640  VAL_803       0.35%    passed     99.99%
+ 641  VAL_601       0.32%    passed     99.98%
+ 642  VAL_466       0.32%    passed     99.99%
+ 643  VAL_474       0.32%    passed     99.99%
+ 644  VAL_600       0.32%    passed     99.95%
+ 645  VAL_462       0.32%    passed     99.97%
+ 646  VAL_665       0.32%    passed    100.00%
+ 647  VAL_596       0.32%    passed     99.94%
+ 648  VAL_729       0.32%    passed     99.91%
+ 649  VAL_108       0.32%    passed     99.97%
+ 650  VAL_728       0.32%    passed     99.94%
+ 651  VAL_477       0.32%    passed     99.99%
+ 652  VAL_69        0.32%    passed    100.00%
+ 653  VAL_700       0.33%    passed     99.86%
+ 654  VAL_709       0.32%    passed     99.96%
+ 655  VAL_95        0.32%    passed     99.99%
+ 656  VAL_280       0.32%    passed     99.99%
+ 657  VAL_727       0.34%    passed     99.97%
+ 658  VAL_77        0.32%    passed     99.98%
+ 659  VAL_777       0.33%    passed     99.95%
+ 660  VAL_686       0.32%    passed     99.98%
+ 661  VAL_367       0.32%    passed     99.94%
+ 662  VAL_68        0.32%    passed     99.97%
+ 663  VAL_51        0.32%    passed     99.94%
+ 664  VAL_604       0.32%    passed     99.89%
+ 665  VAL_65        0.32%    passed     99.97%
+ 666  VAL_319       0.32%    passed     99.99%
+ 667  VAL_369       0.32%    passed     99.99%
+ 668  VAL_149       0.32%    passed     99.98%
+ 669  VAL_1009      0.32%    passed     99.84%
+ 670  VAL_533       0.33%    passed     99.99%
+ 671  VAL_39        0.32%    passed     99.99%
+ 672  VAL_43        0.32%    passed     99.97%
+ 673  VAL_315       0.32%    passed     99.94%
+ 674  VAL_75        0.32%    passed     99.94%
+ 675  VAL_711       0.33%    passed     99.96%
+ 676  VAL_715       0.32%    passed     99.94%
+ 677  VAL_79        0.32%    passed     99.88%
+ 678  VAL_636       0.32%    passed     99.96%
+ 679  VAL_610       0.32%    passed     99.94%
+ 680  VAL_45        0.32%    passed     99.97%
+ 681  VAL_137       0.32%    passed     99.97%
+ 682  VAL_221       0.32%    passed     99.99%
+ 683  VAL_675       0.32%    passed    100.00%
+ 684  VAL_430       0.32%    passed     99.99%
+ 685  VAL_694       0.32%    passed     99.82%
+ 686  VAL_47        0.32%    passed     99.95%
+ 687  VAL_690       0.32%    passed     99.96%
+ 688  VAL_205       0.32%    passed     99.96%
+ 689  VAL_725       0.33%    passed     99.96%
+ 690  VAL_704       0.32%    passed     99.97%
+ 691  VAL_41        0.32%    passed     99.97%
+ 692  VAL_528       0.33%    passed     99.98%
+ 693  VAL_680       0.32%    passed     99.96%
+ 694  VAL_606       0.32%    passed     99.91%
+ 695  VAL_698       0.32%    passed     99.99%
+ 696  VAL_420       0.32%    passed     99.99%
+ 697  VAL_720       0.33%    passed     99.95%
+ 698  VAL_46        0.32%    passed     99.96%
+ 699  VAL_736       0.33%    passed     99.95%
+ 700  VAL_693       0.32%    passed     99.97%
+ 701  VAL_714       0.33%    passed     99.94%
+ 702  VAL_590       0.32%    passed     99.96%
+ 703  VAL_222       0.32%    passed     99.96%
+ 704  VAL_64        0.32%    passed     99.97%
+ 705  VAL_713       0.32%    passed     99.97%
+ 706  VAL_688       0.32%    passed     99.88%
+ 707  VAL_782       0.32%    passed     99.79%
+ 708  VAL_67        0.32%    passed     99.84%
+ 709  VAL_519       0.32%    passed     99.99%
+ 710  VAL_44        0.32%    passed     99.98%
+ 711  VAL_779       0.32%    passed     99.86%
+ 712  VAL_50        0.32%    passed     99.91%
+ 713  VAL_687       0.32%    passed     99.89%
+ 714  VAL_94        0.32%    passed     99.95%
+ 715  VAL_520       0.33%    passed    100.00%
+ 716  VAL_666       0.32%    passed     99.97%
+ 717  VAL_42        0.32%    passed     99.90%
+ 718  VAL_616       0.32%    passed     99.97%
+ 719  VAL_154       0.32%    passed     99.95%
+ 720  VAL_783       0.33%    passed     99.94%
+ 721  VAL_48        0.32%    passed     99.86%
+ 722  VAL_100       0.32%    passed     99.74%
+ 723  VAL_354       0.32%    passed     99.98%
+ 724  VAL_220       0.32%    passed     99.99%
+ 725  VAL_521       0.33%    passed    100.00%
+ 726  VAL_66        0.32%    passed     99.93%
+ 727  VAL_756       0.32%    passed     99.86%
+ 728  VAL_703       0.33%    passed     99.99%
+ 729  VAL_317       0.32%    passed     99.99%
+ 730  VAL_730       0.32%    passed     99.94%
+ 731  VAL_206       0.32%    passed     99.96%
+ 732  VAL_86        0.32%    passed     99.98%
+ 733  VAL_679       0.32%    passed     99.97%
+ 734  VAL_87        0.32%    passed     99.94%
+ 735  VAL_685       0.32%    passed     99.90%
+ 736  VAL_76        0.32%    passed     99.96%
+ 737  VAL_735       0.33%    passed     99.98%
+ 738  VAL_88        0.32%    passed     99.97%
+ 739  VAL_89        0.32%    passed     99.89%
+ 740  VAL_90        0.32%    passed     99.96%
+ 741  VAL_93        0.32%    passed     99.94%
+ 742  VAL_300       0.32%    passed    100.00%
+ 743  VAL_425       0.32%    passed     99.99%
+ 744  VAL_96        0.32%    passed     99.93%
+ 745  VAL_97        0.32%    passed     99.99%
+ 746  VAL_621       0.32%    passed     99.91%
+ 747  VAL_744       0.33%    passed     99.92%
+ 748  VAL_629       0.32%    passed     99.82%
+ 749  VAL_746       0.32%    passed     99.97%
+ 750  VAL_471       0.32%    passed     99.97%
+ 751  VAL_78        0.32%    passed     99.95%
+ 752  VAL_218       0.32%    passed     99.99%
+ 753  VAL_223       0.32%    passed     99.99%
+ 754  VAL_467       0.32%    passed     99.98%
+ 755  VAL_452       0.32%    passed     99.98%
+ 756  VAL_696       0.32%    passed     99.94%
+ 757  VAL_109       0.32%    passed     99.97%
+ 758  VAL_225       0.32%    passed     99.98%
+ 759  VAL_766       0.32%    passed     99.94%
+ 760  VAL_701       0.33%    passed    100.00%
+ 761  VAL_459       0.32%    passed     99.97%
+ 762  VAL_754       0.32%    passed     99.96%
+ 763  VAL_717       0.33%    passed     99.98%
+ 764  VAL_37        0.32%    passed     99.99%
+ 765  VAL_758       0.32%    passed     99.95%
+ 766  VAL_626       0.32%    passed     99.96%
+ 767  VAL_99        0.32%    passed     99.96%
+ 768  VAL_219       0.32%    passed     99.97%
+ 769  VAL_423       0.32%    passed     99.99%
+ 770  VAL_217       0.32%    passed     99.99%
+ 771  VAL_772       0.32%    passed     99.90%
+ 772  VAL_453       0.32%    passed     99.95%
+ 773  VAL_584       0.32%    passed     99.95%
+ 774  VAL_35        0.32%    passed     99.94%
+ 775  VAL_773       0.32%    passed     99.95%
+ 776  VAL_774       0.32%    passed     99.97%
+ 777  VAL_653       0.32%    passed     99.99%
+ 778  VAL_445       0.32%    passed     99.96%
+ 779  VAL_775       0.33%    passed     99.95%
+ 780  VAL_251       0.32%    passed     99.97%
+ 781  VAL_252       0.32%    passed     99.98%
+ 782  VAL_522       0.33%    passed     99.98%
+ 783  VAL_776       0.33%    passed     99.92%
+ 784  VAL_442       0.32%    passed     99.99%
+ 785  VAL_446       0.32%    passed     99.99%
+ 786  VAL_648       0.32%    passed     99.91%
+ 787  VAL_448       0.32%    passed     99.93%
+ 788  VAL_613       0.32%    passed     99.97%
+ 789  VAL_71        0.32%    passed     99.98%
+ 790  VAL_449       0.32%    passed     99.97%
+ 791  VAL_602       0.32%    passed     99.97%
+ 792  VAL_450       0.32%    passed     99.98%
+ 793  VAL_49        0.32%    passed     99.91%
+ 794  VAL_716       0.33%    passed     99.98%
+ 795  VAL_441       0.32%    passed     99.99%
+ 796  VAL_784       0.32%    passed     99.97%
+ 797  VAL_150       0.32%    passed     99.94%
+ 798  VAL_785       0.33%    passed     99.96%
+ 799  VAL_454       0.32%    passed     99.94%
+ 800  VAL_316       0.32%    passed     99.97%
+ 801  VAL_733       0.32%    passed     99.96%
+ 802  VAL_592       0.32%    passed    100.00%
+ 803  VAL_456       0.32%    passed     99.99%
+ 804  VAL_1014      0.32%    passed     99.98%
+ 805  VAL_712       0.33%    passed     99.93%
+ 806  VAL_475       0.32%    passed     99.98%
+ 807  VAL_468       0.32%    passed     99.97%
+ 808  VAL_40        0.32%    passed     99.99%
+ 809  VAL_689       0.32%    passed     99.97%
+ 810  VAL_649       0.32%    passed     99.99%
+ 811  VAL_353       0.32%    passed     99.99%
+ 812  VAL_708       0.33%    passed     99.84%
+ 813  VAL_207       0.32%    passed     99.99%
+ 814  VAL_208       0.32%    passed     99.99%
+ 815  VAL_209       0.32%    passed     99.99%
+ 816  VAL_460       0.32%    passed     99.98%
+ 817  VAL_210       0.32%    passed     99.97%
+ 818  VAL_224       0.32%    passed     99.99%
+ 819  VAL_447       0.32%    passed    100.00%
+ 820  VAL_159       0.32%    passed     99.97%
+ 821  VAL_465       0.32%    passed     99.97%
+ 822  VAL_461       0.32%    passed     99.98%
+ 823  VAL_98        0.32%    passed     99.66%
+ 824  VAL_529       0.33%    passed     99.78%
+ 825  VAL_999       0.32%    passed     99.89%
+ 826  VAL_359       0.32%    passed     99.95%
+ 827  VAL_329       0.32%    passed     99.90%
+ 828  VAL_336       0.32%    passed     99.99%
+ 829  VAL_722       0.33%    passed     99.91%
+ 830  VAL_1006      0.32%    passed     99.86%
+ 831  VAL_334       0.32%    passed     99.97%
+ 832  VAL_1001      0.32%    passed     99.72%
+ 833  VAL_332       0.32%    passed     99.94%
+ 834  VAL_335       0.32%    passed     99.92%
+ 835  VAL_328       0.32%    passed     99.91%
+ 836  VAL_330       0.32%    passed     99.88%
+ 837  VAL_755       0.32%    passed     99.99%
+ 838  VAL_731       0.33%    passed     99.97%
+ 839  VAL_623       0.34%    passed     99.95%
+ 840  VAL_598       0.32%    passed     99.95%
+ 841  VAL_738       0.32%    passed     99.97%
+ 842  VAL_719       0.33%    passed     99.95%
+ 843  VAL_706       0.33%    passed     99.89%
+ 844  VAL_702       0.32%    passed     99.90%
+ 845  VAL_710       0.33%    passed     99.96%
+ 846  VAL_325       0.32%    passed     99.95%
+ 847  VAL_323       0.32%    passed     99.98%
+ 848  VAL_486       0.32%    passed     99.92%
+ 849  VAL_481       0.32%    passed     99.95%
+ 850  VAL_699       0.32%    passed     99.98%
+ 851  VAL_151       0.32%    passed     99.94%
+ 852  VAL_707       0.32%    passed     99.94%
+ 853  VAL_476       0.32%    passed     99.93%
+ 854  VAL_91        0.32%    passed     99.93%
+ 855  VAL_160       0.32%    passed     99.92%
+ 856  VAL_451       0.32%    passed     99.97%
+ 857  VAL_455       0.32%    passed     99.86%
+ 858  VAL_457       0.32%    passed     99.94%
+ 859  VAL_463       0.32%    passed     99.97%
+ 860  VAL_458       0.32%    passed     99.87%
+ 861  VAL_464       0.32%    passed     99.90%
+ 862  VAL_157       0.32%    passed     99.91%
+ 863  VAL_697       0.32%    passed     99.96%
+ 864  VAL_308       0.32%    passed     99.97%
+ 865  VAL_307       0.32%    passed     99.94%
+ 866  VAL_306       0.32%    passed     99.99%
+ 867  VAL_338       0.32%    passed     99.96%
+ 868  VAL_337       0.32%    passed     99.97%
+ 869  VAL_341       0.32%    passed    100.00%
+ 870  VAL_333       0.32%    passed     99.98%
+ 871  VAL_331       0.32%    passed     99.98%
+ 872  VAL_351       0.32%    passed    100.00%
+ 873  VAL_786       0.32%    passed     99.94%
+ 874  VAL_655       0.32%    passed     99.96%
+ 875  VAL_619       0.32%    passed     99.98%
+ 876  VAL_279       0.32%    passed     99.99%
+ 877  VAL_753       0.32%    passed     99.86%
+ 878  VAL_200       0.32%    passed     99.90%
+ 879  VAL_196       0.32%    passed     99.89%
+ 880  VAL_691       0.32%    passed     99.99%
+ 881  VAL_778       0.32%    passed     99.97%
+ 882  VAL_721       0.33%    passed     99.99%
+ 883  VAL_718       0.33%    passed     99.98%
+ 884  VAL_582       0.32%    passed     99.91%
+ 885  VAL_577       0.32%    passed     99.94%
+ 886  VAL_594       0.32%    passed     99.96%
+ 887  VAL_752       0.32%    passed     99.98%
+ 888  VAL_684       0.32%    passed     99.84%
+ 889  VAL_751       0.32%    passed     99.96%
+ 890  VAL_622       0.32%    passed     99.95%
+ 891  VAL_781       0.32%    passed     99.97%
+ 892  VAL_750       0.32%    passed     99.91%
+ 893  VAL_643       0.35%    passed     99.91%
+ 894  VAL_654       0.32%    passed     99.97%
+ 895  VAL_578       0.32%    passed     99.98%
+ 896  VAL_631       0.32%    passed     99.86%
+ 897  VAL_740       0.33%    passed     99.93%
+ 898  VAL_737       0.33%    passed     99.95%
+ 899  VAL_587       0.32%    passed     99.95%
+ 900  VAL_586       0.32%    passed     99.93%
+ 901  VAL_692       0.32%    passed     99.95%
+ 902  VAL_644       0.32%    passed     99.96%
+ 903  VAL_322       0.32%    passed     99.96%
+ 904  VAL_664       0.32%    passed     99.94%
+ 905  VAL_614       0.32%    passed     99.93%
+ 906  VAL_627       0.32%    passed     99.78%
+ 907  VAL_663       0.32%    passed     99.86%
+ 908  VAL_642       0.32%    passed     99.96%
+ 909  VAL_314       0.32%    passed     99.97%
+ 910  VAL_583       0.32%    passed     99.98%
+ 911  VAL_660       0.32%    passed     99.97%
+ 912  VAL_595       0.32%    passed     99.82%
+ 913  VAL_676       0.32%    passed     99.90%
+ 914  VAL_764       0.32%    passed     99.92%
+ 915  VAL_743       0.32%    passed     99.99%
+ 916  VAL_760       0.32%    passed     99.99%
+ 917  VAL_742       0.32%    passed    100.00%
+ 918  VAL_74        0.32%    passed     99.96%
+ 919  VAL_63        0.32%    passed     99.96%
+ 920  VAL_348       0.32%    passed     99.99%
+ 921  VAL_344       0.32%    passed    100.00%
+ 922  VAL_372       0.32%    passed     99.99%
+ 923  VAL_345       0.32%    passed     99.99%
+ 924  VAL_347       0.32%    passed    100.00%
+ 925  VAL_355       0.32%    passed     99.98%
+ 926  VAL_346       0.32%    passed     99.99%
+ 927  VAL_527       0.33%    passed     99.98%
+ 928  VAL_342       0.32%    passed     99.99%
+ 929  VAL_265       0.32%    passed     99.99%
+ 930  VAL_371       0.32%    passed     99.98%
+ 931  VAL_266       0.32%    passed     99.99%
+ 932  VAL_258       0.32%    passed     99.99%
+ 933  VAL_375       0.32%    passed    100.00%
+ 934  VAL_1000      0.32%    passed     99.99%
+ 935  VAL_769       0.32%    passed     99.91%
+ 936  VAL_374       0.32%    passed     99.96%
+ 937  VAL_780       0.32%    passed     99.91%
+ 938  VAL_762       0.32%    passed     99.97%
+ 939  VAL_749       0.32%    passed     99.98%
+ 940  VAL_748       0.32%    passed     99.98%
+ 941  VAL_747       0.32%    passed     99.94%
+ 942  VAL_741       0.32%    passed     99.97%
+ 943  VAL_179       0.32%    passed     99.94%
+ 944  VAL_765       0.32%    passed     99.86%
+ 945  VAL_201       0.32%    passed     99.91%
+ 946  VAL_199       0.32%    passed     99.87%
+ 947  VAL_73        0.32%    passed     99.95%
+ 948  VAL_52        0.32%    passed     99.93%
+ 949  VAL_54        0.32%    passed     99.93%
+ 950  VAL_53        0.32%    passed     99.90%
+ 951  VAL_534       0.32%    passed     99.90%
+ 952  VAL_525       0.33%    passed     99.86%
+ 953  VAL_60        0.32%    passed     99.91%
+ 954  VAL_197       0.32%    passed     99.87%
+ 955  VAL_55        0.32%    passed     99.95%
+ 956  VAL_72        0.32%    passed     99.93%
+ 957  VAL_530       0.33%    passed     99.84%
+ 958  VAL_532       0.32%    passed     99.95%
+ 959  VAL_768       0.32%    passed     99.91%
+ 960  VAL_56        0.32%    passed     99.88%
+ 961  VAL_58        0.32%    passed     99.87%
+ 962  VAL_59        0.32%    passed     99.78%
+ 963  VAL_61        0.32%    passed     99.91%
+ 964  VAL_70        0.32%    passed     99.90%
+ 965  VAL_343       0.32%    passed     99.98%
+ 966  VAL_264       0.32%    passed     99.95%
+ 967  VAL_262       0.32%    passed     99.95%
+ 968  VAL_257       0.32%    passed     99.97%
+ 969  VAL_255       0.32%    passed     99.95%
+ 970  VAL_363       0.32%    passed     99.95%
+ 971  VAL_202       0.32%    passed     99.84%
+ 972  VAL_260       0.32%    passed     99.95%
+ 973  VAL_361       0.32%    passed     99.93%
+ 974  VAL_256       0.32%    passed     99.95%
+ 975  VAL_356       0.32%    passed     99.99%
+ 976  VAL_350       0.32%    passed     99.97%
+ 977  VAL_62        0.32%    passed     99.79%
+ 978  VAL_57        0.32%    passed     99.80%
+ 979  VAL_263       0.32%    passed     99.95%
+ 980  VAL_358       0.32%    passed     99.98%
+ 981  VAL_523       0.34%    passed     99.94%
+ 982  VAL_352       0.32%    passed     99.94%
+ 983  VAL_376       0.32%    passed     99.98%
+ 984  VAL_349       0.32%    passed     99.98%
+ 985  VAL_364       0.32%    passed     99.97%
+ 986  VAL_360       0.32%    passed     99.97%
+ 987  VAL_373       0.32%    passed     99.93%
+ 988  VAL_365       0.32%    passed     99.91%
+ 989  VAL_761       0.32%    passed     99.95%
+ 990  VAL_254       0.32%    passed     99.98%
+ 991  VAL_531       0.32%    passed     99.94%
+ 992  VAL_368       0.32%    passed     99.93%
+ 993  VAL_261       0.32%    passed     99.92%
+ 994  VAL_203       0.32%    passed     99.84%
+ 995  VAL_253       0.32%    passed     99.95%
+ 996  VAL_366       0.32%    passed     99.97%
+ 997  VAL_357       0.32%    passed     99.98%
+ 998  VAL_362       0.32%    passed     99.97%
+ 999  VAL_370       0.32%    passed     99.93%
+1000  VAL_198       0.32%    passed     99.79%
+1001  VAL_745       0.32%    passed     99.89%
+1002  VAL_759       0.32%    passed     99.83%
+1003  VAL_195       0.32%    passed     99.92%
+1004  VAL_770       0.32%    passed     99.92%
+1005  VAL_1010      0.32%    passed     99.94%
+1006  VAL_526       0.33%    passed     99.86%
+1007  VAL_524       0.33%    passed     99.70%
+1008  VAL_259       0.32%    passed     99.93%
+1009  VAL_771       0.33%    passed     99.93%
+1010  VAL_767       0.32%    passed     99.89%
+1011  VAL_763       0.32%    passed     99.86%
+1012  VAL_739       0.32%    passed     99.91%
+1013  VAL_917       0.32%    passed     99.82%
+1014  VAL_169       0.32%    passed     99.89%
+1015  VAL_501       0.32%    passed     99.92%
+1016  VAL_540       0.32%    passed     99.88%
+1017  VAL_915       0.32%    passed     99.99%
+1018  VAL_914       0.32%    passed     99.99%
+1019  VAL_12        0.33%    passed     99.84%
+1020  VAL_11        0.32%    passed     99.67%
+1021  VAL_13        0.32%    passed     99.72%
+1022  VAL_9         0.32%    passed     99.71%
+1023  VAL_8         0.32%    passed     99.56%
+1024  VAL_5         0.32%    passed     99.73%
+1025  VAL_1         0.32%    passed     99.59%
+1026  VAL_929       0.32%    passed     99.67%
+1027  VAL_996       0.32%    passed     99.74%
+1028  VAL_204       0.32%    passed     99.65%
+1029  VAL_1024      0.32%    passed     99.88%
+1030  VAL_1023      0.32%    passed     99.96%
+1031  VAL_1022      0.32%    passed     99.96%
+1032  VAL_1026      0.32%    passed     99.89%
+1033  VAL_926       0.32%    passed     99.93%
+1034  VAL_814       0.32%    passed     99.95%
+1035  VAL_813       0.32%    passed     99.93%
+1036  VAL_1003      0.32%    passed     99.87%
+1037  VAL_995       0.33%    passed     99.96%
+1038  VAL_101       0.32%    passed     99.91%
+****  TOTAL         0.32%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.732 seconds
+
+NOTE: 85 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 6 CPU cores
+Increase to 10 rounds for branch lengths
+4 trees examined
+Threads: 1 / Time: 7.429 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -338549
+Threads: 2 / Time: 4.387 sec / Speedup: 1.693 / Efficiency: 85% / LogL: -338549
+Threads: 3 / Time: 3.414 sec / Speedup: 2.176 / Efficiency: 73% / LogL: -338549
+Threads: 4 / Time: 3.113 sec / Speedup: 2.386 / Efficiency: 60% / LogL: -338549
+Threads: 5 / Time: 3.782 sec / Speedup: 1.964 / Efficiency: 39% / LogL: -338549
+BEST NUMBER OF THREADS: 4
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -95590.699
+2. Current log-likelihood: -93044.305
+3. Current log-likelihood: -93043.984
+Optimal log-likelihood: -93043.983
+Rate parameters:  A-C: 0.39218  A-G: 1.48878  A-T: 0.16869  C-G: 0.29399  C-T: 3.67947  G-T: 1.00000
+Base frequencies:  A: 0.299  C: 0.183  G: 0.196  T: 0.321
+Parameters optimization took 3 rounds (3.053 sec)
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 1.320826 sec (of wall-clock time) 5.283104 sec(of CPU time)
+Computing RapidNJ tree took 0.053737 sec (of wall-clock time) 0.215576 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -93850.987
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 79.763 second
+Computing log-likelihood of 98 initial trees ... 9.027 seconds
+Current best score: -92950.057
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -92891.222
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -92890.469
+Iteration 10 / LogL: -92938.674 / Time: 0h:2m:13s
+Iteration 20 / LogL: -92939.102 / Time: 0h:2m:28s
+Finish initializing candidate tree set (20)
+Current best tree score: -92890.469 / CPU time: 119.301
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -92976.438 / Time: 0h:2m:49s (0h:6m:58s left)
+Iteration 40 / LogL: -93044.561 / Time: 0h:3m:10s (0h:5m:0s left)
+Iteration 50 / LogL: -92928.389 / Time: 0h:3m:28s (0h:3m:40s left)
+Iteration 60 / LogL: -93006.165 / Time: 0h:3m:50s (0h:2m:43s left)
+Iteration 70 / LogL: -92966.609 / Time: 0h:4m:10s (0h:1m:55s left)
+Iteration 80 / LogL: -92939.581 / Time: 0h:4m:29s (0h:1m:14s left)
+Iteration 90 / LogL: -93009.983 / Time: 0h:4m:50s (0h:0m:39s left)
+Iteration 100 / LogL: -93014.215 / Time: 0h:5m:9s (0h:0m:6s left)
+TREE SEARCH COMPLETED AFTER 103 ITERATIONS / Time: 0h:5m:14s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -92890.469
+2. Current log-likelihood: -92890.449
+Optimal log-likelihood: -92890.442
+Rate parameters:  A-C: 0.38146  A-G: 1.50967  A-T: 0.16981  C-G: 0.30059  C-T: 3.67187  G-T: 1.00000
+Base frequencies:  A: 0.299  C: 0.183  G: 0.196  T: 0.321
+Parameters optimization took 2 rounds (0.688 sec)
+BEST SCORE FOUND : -92890.442
+Ancestral state probabilities printed to Tree_LineageCombined_1.fa.state
+Total tree length: 0.171
+
+Total number of iterations: 103
+CPU time used for tree search: 894.290 sec (0h:14m:54s)
+Wall-clock time used for tree search: 285.286 sec (0h:4m:45s)
+Total CPU time used: 2096.702 sec (0h:34m:56s)
+Total wall-clock time used: 3737.588 sec (1h:2m:17s)
+
+Analysis results written to: 
+  IQ-TREE report:                Tree_LineageCombined_1.fa.iqtree
+  Maximum-likelihood tree:       Tree_LineageCombined_1.fa.treefile
+  Likelihood distances:          Tree_LineageCombined_1.fa.mldist
+  Ancestral state:               Tree_LineageCombined_1.fa.state
+  Screen log file:               Tree_LineageCombined_1.fa.log
+
+Date and Time: Mon Jul 11 19:38:44 2022
