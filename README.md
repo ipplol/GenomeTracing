@@ -20,9 +20,9 @@ The test query sequence is EPI_ISL_7734032. And the result will be found at `./T
 
 ## Database prepare
 
-**One can skip this step and use our pre-calculated database instead.**
+**(One can skip this step and use our pre-calculated database instead.)**
 
-**Simply download it from [Google Drive](https://drive.google.com/drive/folders/1feiqGvoKvP9NDxh__GTdzaMiNpTrpoMR?usp=sharing), unzip and put them into the `Data` fold.**
+**(Simply download it from [Google Drive](https://drive.google.com/drive/folders/1feiqGvoKvP9NDxh__GTdzaMiNpTrpoMR?usp=sharing), unzip and put them into the `Data` fold.)**
 
 Two input files [metadata.tsv](https://ngdc.cncb.ac.cn/ncov/genome/export/meta) and [2019-nCoV_total.vcf](https://download.cncb.ac.cn/GVM/Coronavirus/vcf/2019-nCoV_total.vcf.gz) ,are needed to build the database.
 
