@@ -42,7 +42,7 @@ Then, the Data_Prepare scripts perform data formatting and calculate the mutatio
 
 The Part_1 script generate multiple `IQTREE_*.sh` scripts for phylogenetic reconstruction, and implement one by one.
 
-After all trees are successfully constructed, fun the part_2 script to obtain the mutation metrics
+After all trees are successfully constructed, run the part_2 script to obtain the mutation metrics
 
 - **`bash ./Script/DataPrepare_Part2.sh`**
 
