@@ -74,3 +74,7 @@ It includes files and scripts used in the Validation Section in the manuscript.
 `/Simulation` Simulatied viral genome with known ancestry information
 
 `/TransmissionPair` 563 sequences with highly plausible transmission links
+
+### *AccessionList.zip*
+
+The accession number of all sequences used in the study.
